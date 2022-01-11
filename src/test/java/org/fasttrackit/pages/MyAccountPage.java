@@ -9,7 +9,7 @@ public class MyAccountPage extends PageObject {
     @FindBy(css = ".hello strong")
     private WebElementFacade loginHelloMessageElement;
 
-    @FindBy(css = "success-msg")
+    @FindBy(css = ".hello strong")
     private WebElementFacade registerHelloElement;
 
     public void checkUserLoggedIn(String userName) {
